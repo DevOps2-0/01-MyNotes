@@ -14,3 +14,6 @@ $ terraform plan
 $ terraform apply
 $ terraform apply -auto-approve
 $ terraform destroy -auto-approve
+
+$ terraform plan -var="instance-type=t3.medium"
+$ terrafrom plan -var-file="roboshop.vars"
